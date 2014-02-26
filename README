@@ -1,0 +1,22 @@
+SafeSeq Analysis
+----------------
+
+Java Program to analyze data from SafeSeq.
+Usage: java SafeSeqAnalysis <inputfastq_forward> <inputfastq_reverse> <output_fasta_f> <output_fasta_r> <stats>
+
+
+Class SafeSeqAnalysis
+---------------------
+Perform analyses, Read input data, create output data
+
+
+Class SafeSeqRead
+-----------------
+Represents one (paired-end) read from SafeSeq Analysis
+
+
+Class SafeSeqReadGroup
+----------------------
+Represents one ReadGroup, i.e. all reads having the same UID (which in turn 
+means these reads stem from the same PCR template) 
+
